@@ -23,10 +23,18 @@ def findx(x, y, f=0):
                 #     print("inside")
                 return list((x.pop(i), x.pop(j-1))) if f else list((x.pop(i), y.pop(j)))
 
-# def findz(x):
-#     for i in range(len(x)):
-#         if (x[i] * x[i+1]) % 9 == 0:
-#             return list((x.pop(i), x.pop(i+1)))
+def findz(x):
+    print("in z")
+    print(x)
+    print(x)
+    for i in range(0, len(x)-1):
+        print("inside first loop{}".format(i))
+        for j in range(i + 1, len(x)):
+            print("inside loop{},{}".format(i,j))
+            if (x[i] * x[j]) % 9 == 0:
+                print("x=>{}....u=>{}".format(i,j))
+                return list((x.pop(i), x.pop(j)))
+    return []
             
 def findy(x, y):
     for i in range(len(y)):
@@ -43,9 +51,10 @@ def main():
         return -1
     A.sort()
     B.sort()
-    pair.extend(findx(A, A[1:], 1))
+    import pdb; pdb.set_trace()
+    pair.extend(findz(A))
     if len(pair) < 2:
-        pair.extend(findx(B, B[1:], 1))
+        pair.extend(findz(B))
     if len(pair) < 2:
         pair.extend(findx(A, B))
     if len(pair) == 2:
