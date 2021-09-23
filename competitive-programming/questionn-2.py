@@ -17,24 +17,24 @@ def findx(x, y, f=0):
     print(y)
     for i in range(len(x)):
         for j in range(len(y)):
+            print(x[i], y[j])
             if (x[i] * y[j]) % 9 == 0:
-                print(x[i], y[j])
-                # if f and j != i-1:
-                #     print("inside")
-                return list((x.pop(i), x.pop(j-1))) if f else list((x.pop(i), y.pop(j)))
-
-def findz(x):
-    print("in z")
-    print(x)
-    print(x)
-    for i in range(0, len(x)-1):
-        print("inside first loop{}".format(i))
-        for j in range(i + 1, len(x)):
-            print("inside loop{},{}".format(i,j))
-            if (x[i] * x[j]) % 9 == 0:
-                print("x=>{}....u=>{}".format(i,j))
-                return list((x.pop(i), x.pop(j)))
+                print(x[i], y[j],i,j)
+                if f and j != i-1:
+                    print("************")
+                    print(x[i], y[j],i,j)
+                    print("************")
+                    return list((x.pop(i), x.pop(j+1))) 
+                if j != i -1:
+                    return list((x.pop(i), y.pop(j)))
     return []
+
+# def findz(x):
+#     for i in range(0, len(x)-1):
+#         for j in range(i + 1, len(x)):
+#             if (x[i] * x[j]) % 9 == 0:
+#                 return list((x.pop(i), x.pop(j)))
+#     return []
             
 def findy(x, y):
     for i in range(len(y)):
@@ -51,12 +51,15 @@ def main():
         return -1
     A.sort()
     B.sort()
-    import pdb; pdb.set_trace()
-    pair.extend(findz(A))
+    # import pdb; pdb.set_trace()
+    pair.extend(findx(A, A[1:], 1))
+    print("After a -> {}".format(pair))
     if len(pair) < 2:
-        pair.extend(findz(B))
+        pair.extend(findx(B, B[1:], 1))
+    print("After b -> {}".format(pair))
     if len(pair) < 2:
         pair.extend(findx(A, B))
+    print("After a,b -> {}".format(pair))
     if len(pair) == 2:
         pair.append(findy(pair, A))
     if len(pair) == 2:
