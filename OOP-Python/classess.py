@@ -57,22 +57,21 @@ class Employee:
 # print(Employee.is_workday(my_date))
 
 '''--------Class method----------'''
-# emp_1 = 'sikander-shakil-9000'
+emp_1 = 'sikander-shakil-9000'
 # #from_stringis like an alternative construct where 
 # # we are performing some function on it.
-# new_emp = Employee.from_string(emp_1)
-# print(new_emp.__dict__)
+new_emp = Employee.from_string(emp_1)
+print(new_emp.__dict__)
 
-# Employee.set_raise_amt(3)
-# print(Employee.raise_amount)
-# print(new_emp.raise_amount)
+# new_emp.set_raise_amt(3)
+print(Employee.raise_amount)
+print(new_emp.raise_amount)
 
 
 
 '''--------Creating Instance----------'''
-e1 = Employee('Sikander', 'khan', 5000)
-e2 = Employee('saba', 'khan', 8000)
-
+# e1 = Employee('Sikander', 'khan', 5000)
+# e2 = Employee('saba', 'khan', 8000)
 # print(e2 +e1)
 # print(repr(e1))
 # print(str(e1))
