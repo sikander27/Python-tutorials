@@ -25,7 +25,7 @@ def solution(a):
     ans = 1
     while ans in A:
         ans += 1
-        print('print:', ans)
+        # print('print:', ans)
     
     return ans
 
