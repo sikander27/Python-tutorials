@@ -50,10 +50,13 @@ def solution( str):
 def palindrome(s,l,r):
     if l>r:
        return 0
+    # import pdb; pdb.set_trace()
+    print(s,l,r)
     if s[l]==s[r]:
-        return palindrome(s,l+1,r+1)
-
-    return (1 + min(palindrome(Str, i + 1, j),palindrome(Str, i, j - 1)))
+        return palindrome(s,l+1,r-1)
+    print("##############")
+    print(s,l,r)
+    return (1 + min(palindrome(s, l + 1, r),palindrome(s, l, r - 1)))
 
 def solution(S):
     length = len(S)
