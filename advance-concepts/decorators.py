@@ -1,3 +1,11 @@
+"""
+This file contains the basic examples of decorators.
+-->  how to definde decorators
+-->  Different ways to implement decorators
+-->  Using multiple decorators
+-->  Using argumnet based decorators
+"""
+
 # 1. defining simple decorator: without parameters
 def do_something(func):
     def something():
@@ -32,8 +40,36 @@ def sum(a, b):
 def subtract(a, b):
     print( a - b)
 
-sum(5, 4)
+# sum(5, 4)
 
 # 2. by passing function name as a param to decorator
-output = print_numbers(sum) # return print_numbers object
-output(10, 5) # notice that we are passing the input to this object
+# output = print_numbers(sum) # return print_numbers object
+# output(10, 5) # notice that we are passing the input to this object
+
+
+"""
+########################################CHAINING DECORATORS/ USING MULTIPLE DECORATORS##################################
+"""
+def star(func):
+    def inner(*args, **kwargs):
+        print("*" * 30)
+        func(*args, **kwargs)
+        print("*" * 30)
+    return inner
+
+
+def percent(func):
+    def inner(*args, **kwargs):
+        print("%" * 30)
+        func(*args, **kwargs)
+        print("%" * 30)
+    return inner
+
+
+@star
+@percent
+def printer(msg):
+    print(msg)
+
+
+printer("Hello")
