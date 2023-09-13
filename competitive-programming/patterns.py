@@ -19,6 +19,6 @@ def right_angle_traingle(rows = 6):
         print("* "*i)
 
 right_angle_traingle()
-# right_angle_traingle_down()
-# pyramid()
-# pyramid_down()
+right_angle_traingle_down()
+pyramid()
+pyramid_down()

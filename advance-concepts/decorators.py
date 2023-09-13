@@ -66,10 +66,10 @@ def percent(func):
     return inner
 
 
-@percent
-@star
+# @percent
+# @star
 def printer(msg):
     print(msg)
 
-
-printer("Hello")
+printer_sk = percent(star(printer))
+printer_sk("Hello")
