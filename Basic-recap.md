@@ -2,10 +2,18 @@
 
 ## Python collections
 
-- **List** is a collection which is ordered and changeable. Allows duplicate members.
-- **Tuple** is a collection which is ordered and unchangeable. Allows duplicate members.
-- **Set** is a collection which is unordered, unchangeable\*, and unindexed. No duplicate members.
-- **Dictionary** is a collection which is ordered\*\* and changeable. No duplicate members.
+- **List** is a collection which is `ordered and changeable`. Allows duplicate members.
+  - Can have all type of data types
+  - Can use Sort function but gives error for different data types.
+- **Tuple** is a collection which is `ordered and unchangeable`. Allows duplicate members.
+  - Can have all type of data types
+- **Set** is a collection which is `unordered, unchangeable\*, and unindexed`. No duplicate members.
+  - Elements in `Set` needs to be `hashable`
+  - As per definition, a set can have any number and any items. However, mutable elements such as dictionaries, lists, or sets are not allowed as its elements.
+- **Dictionary** is a collection which is `ordered\*\* and changeable`. No duplicate 
+members.
+  - Key of `dict` needs to be `hashable`
+  -  The Key is normally a string, but can be any hashable type
 
 ```
   \*Set items are unchangeable, but you can remove items and add new items.
@@ -29,6 +37,7 @@
 - Frozen Sets
 - User-Defined Classes (It purely depends upon the user to define the characteristics)
 
+``` All immutable object (string, number, boolean, Tuples) are hashable but opposite is not True```
 ## Basic Knowledge, Good practices
 
 - **PEP 8** sometimes spelled PEP8 or PEP-8, is a document that provides guidelines and best practices on how to write Python code.
