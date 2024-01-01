@@ -1,6 +1,6 @@
 # for question see. codility-2.jpg
 
-def solutions(A):
+def solution(A):
     if len(A) <= 0:
         return 0
     reference = {}
