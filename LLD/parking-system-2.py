@@ -69,11 +69,11 @@ class ParkingLot:
                 return self.generate_ticket(vehicle_number, vehicle_type, parking_no)
         return "Parking full"
 
-slots = {"car": 2, "bike":1, "truck": 0}
-vehicle_no = "MH04SK7866"
-vehicle_type = "car"
-skParking = ParkingLot(slots, 1)
-skParking.park(vehicle_type, vehicle_no)
-skParking.park(vehicle_type, 'MH04SK7868')
-skParking.park(vehicle_type, 'MH04SK7867')
-skParking.exit(vehicle_type, vehicle_no)
+# slots = {"car": 2, "bike":1, "truck": 0}
+# vehicle_no = "MH04SK7866"
+# vehicle_type = "car"
+# skParking = ParkingLot(slots, 1)
+# skParking.park(vehicle_type, vehicle_no)
+# skParking.park(vehicle_type, 'MH04SK7868')
+# skParking.park(vehicle_type, 'MH04SK7867')
+# skParking.exit(vehicle_no)
