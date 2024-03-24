@@ -1,28 +1,39 @@
-# 0 1 1 2 3 5 
-
 def fibonacci(n):
-    count, a, b = 0, 0, 1
-    if n <= 1:
-        return
-    while count < n:
+    i = 0
+    a, b = 0, 1
+    while i < n:
         print(a)
-        t = a
-        a = t + b
-        b = t
-        count += 1
-    return
+        a, b = a + b, a
+        i += 1
 
+    return 
 
-def recurFib(n):
-    if n <= 1:
+def fibonacci_list(n):
+    i = 0
+    a, b = 0, 1
+    result = []
+    while i < n:
+        result.append(a)
+        a, b = a + b, a
+        i += 1
+    print(result)
+    return result
+
+# 3 -> 2(1) + 1(1)
+# 2 -> 1 + 0
+def fibonacci_recursion(n):
+    """
+    This function return the fibonacci number at nth position
+    """
+    if n < 2:
         return n
-    return recurFib(n-1) + recurFib(n-2)
+    return fibonacci_recursion(n-1) + fibonacci_recursion(n-2)
 
-def printFibo(n):
+def fibonacci_series_recursin(n):
+    res = []
     for i in range(n):
-        print(f"-------------{i}----------------")
-        print(recurFib(i))
+        res.append(fibonacci_recursion(i))
+    return res
 
-
-print(fibonacci(4))
-print(printFibo(5))
+a = fibonacci_series_recursin(7)
+print(a)
