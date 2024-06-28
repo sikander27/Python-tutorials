@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Courses</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        input[type="text"] {
+            width: calc(100% - 20px);
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            padding: 5px;
+            border-bottom: 1px solid #ddd;
+            cursor: pointer;
+        }
+        li:hover {
+            background-color: #f0f0f0;
+        }
+        .suggestions {
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            max-height: 200px;
+            overflow-y: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>College Courses</h1>
+    <input type="text" id="collegeInput" placeholder="Search for college...">
+    <ul id="suggestions" class="suggestions"></ul>
+    <h2>Courses</h2>
+    <ul id="courseList"></ul>
+
+    <script>
+        let collegeData = {};
+
+        // Load the JSON data from the external file
+        fetch('college_map.json')
+            .then(response => response.json())
+            .then(data => {
+                collegeData = data;
+                console.log("College data loaded", collegeData);
+            })
+            .catch(error => console.error('Error loading the college data:', error));
+
+        const collegeInput = document.getElementById('collegeInput');
+        const suggestions = document.getElementById('suggestions');
+        const courseList = document.getElementById('courseList');
+
+        collegeInput.addEventListener('input', () => {
+            const query = collegeInput.value.toLowerCase();
+            suggestions.innerHTML = '';
+
+            if (query) {
+                const matchedColleges = Object.keys(collegeData).filter(college => 
+                    college.toLowerCase().includes(query)
+                );
+
+                matchedColleges.forEach(college => {
+                    const suggestionItem = document.createElement('li');
+                    suggestionItem.textContent = college;
+                    suggestionItem.addEventListener('click', () => {
+                        collegeInput.value = college;
+                        displayCourses(college);
+                        suggestions.innerHTML = '';
+                    });
+                    suggestions.appendChild(suggestionItem);
+                });
+            }
+        });
+
+        function displayCourses(college) {
+            courseList.innerHTML = '';
+            if (collegeData[college]) {
+                collegeData[college].forEach(course => {
+                    const courseItem = document.createElement('li');
+                    courseItem.textContent = course;
+                    courseList.appendChild(courseItem);
+                });
+            }
+        }
+    </script>
+</body>
+</html>

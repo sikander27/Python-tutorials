@@ -48,37 +48,32 @@ nums = [-1,0,1,2,-1,-4]
 def find_triplet(nums):
     target = 0
     result = []
-    hashmap = set()
-
-    def register_nums(nums):
-        print(nums)
-        for i in nums:
-            hashmap.add(i)
-
     nums.sort() # [-4,-1,-1, 0,1,2]
-    # print(nums)
+
     for i in range(len(nums)):
-        if nums[i] in hashmap:
+        # Skip the same `nums[i]` to avoid duplicates
+        if i > 0 and nums[i] == nums[i - 1]:
             continue
+        
         l, r = i + 1, len(nums) - 1
         while l < r:
-            if nums[l] in hashmap:
-                l += 1
-            if nums[r] in hashmap:
-                r -= 1
             sum = nums[i] + nums[l] + nums[r]
             if sum == target:
-                register_nums([i, l, r])
                 result.append([nums[i], nums[l], nums[r]])
                 l += 1
                 r -= 1
-                break
+                # Skip the same `nums[l]` and `nums[r]` to avoid duplicates
+                while l < r and nums[l] == nums[l - 1]:
+                    l += 1
+                while l < r and nums[r] == nums[r + 1]:
+                    r -= 1
             elif sum < target:
                 l += 1
             else:
                 r -= 1
-            
+
     return result
+
 
 print(find_triplet(nums))
 
@@ -112,13 +107,13 @@ print(find_triplet(nums))
 
 
 # # way - 1
-# # def reverse_from(data):
-# #     result = []
-# #     for word in data.split():
-# #         if word.lower() == "from":
-# #             result.append(word[::-1])
-# #             continue
-# #         result.append(word)
-# #     return " ".join(result)
+def reverse_from(data):
+    result = []
+    for word in data.split():
+        if word.lower() == "from":
+            result.append(word[::-1])
+            continue
+        result.append(word)
+    return " ".join(result)
 
 # print(reverse_from(data))

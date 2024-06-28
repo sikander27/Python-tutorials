@@ -1,0 +1,633 @@
+{
+  "output": [
+    {
+      "id": 237,
+      "name": "Bachelor in Science - (Computer Applications) (Autonomous)"
+    },
+    {
+      "id": 108,
+      "name": "Bachelor Management Studies"
+    },
+    {
+      "id": 239,
+      "name": "Bachelor of Arts"
+    },
+    {
+      "id": 245,
+      "name": "Bachelor of Arts - Diploma in Foundation of Yoga"
+    },
+    {
+      "id": 246,
+      "name": "Bachelor of Arts - Diploma in Yoga"
+    },
+    {
+      "id": 248,
+      "name": "Bachelor of Arts - Fashion Design (Autonomous)"
+    },
+    {
+      "id": 249,
+      "name": "Bachelor of Arts - Film, Television and New Media Production (Autonomous)"
+    },
+    {
+      "id": 247,
+      "name": "Bachelor of Arts - Geography (Autonomous)"
+    },
+    {
+      "id": 250,
+      "name": "Bachelor of Arts - Multimedia and Mass Communication (Autonomous)"
+    },
+    {
+      "id": 252,
+      "name": "Bachelor of Arts - Social Work(Autonomous)"
+    },
+    {
+      "id": 243,
+      "name": "Bachelor of Arts - Visual Arts (Autonomous)"
+    },
+    {
+      "id": 251,
+      "name": "Bachelor of Arts (Autonomous)"
+    },
+    {
+      "id": 241,
+      "name": "Bachelor of Arts (Culinary Arts)"
+    },
+    {
+      "id": 240,
+      "name": "Bachelor of Arts (Film, Television and New Media Production)"
+    },
+    {
+      "id": 254,
+      "name": "Bachelor of Arts (Honours) - Apparel Design and Construction (Autonomous)"
+    },
+    {
+      "id": 244,
+      "name": "Bachelor of Arts (Multimedia and Mass Communication)"
+    },
+    {
+      "id": 113,
+      "name": "Bachelor of Arts( FRENCH STUDIES )"
+    },
+    {
+      "id": 112,
+      "name": "Bachelor of Arts(Bachelor of  Arts (GERMAN))"
+    },
+    {
+      "id": 114,
+      "name": "Bachelor of Arts(Bachelor of Arts  (FRENCH))"
+    },
+    {
+      "id": 226,
+      "name": "Bachelor of Arts(DEMO)"
+    },
+    {
+      "id": 268,
+      "name": "Bachelor of Business Administration (Autonomous) (Business Analytics and Management)"
+    },
+    {
+      "id": 267,
+      "name": "Bachelor of Business Administration (Autonomous) (Capital Market)"
+    },
+    {
+      "id": 269,
+      "name": "Bachelor of Business Administration (Autonomous) (Digital Marketing)"
+    },
+    {
+      "id": 272,
+      "name": "Bachelor of Business Administration (Autonomous) (Event Management)"
+    },
+    {
+      "id": 270,
+      "name": "Bachelor of Business Administration (Autonomous) (Logistics &amp;Supply Chain Management)"
+    },
+    {
+      "id": 276,
+      "name": "Bachelor of Business Administration (Autonomous) (Logistics)"
+    },
+    {
+      "id": 271,
+      "name": "Bachelor of Business Administration (Autonomous) (Sports Management)"
+    },
+    {
+      "id": 255,
+      "name": "Bachelor of Business Administration (Honours)(Autonomous)"
+    },
+    {
+      "id": 259,
+      "name": "Bachelor of Business Administration (Honours)(Autonomous) (Business Administration)"
+    },
+    {
+      "id": 265,
+      "name": "Bachelor of Business Administration (Honours)(Autonomous) (Digital Business)"
+    },
+    {
+      "id": 260,
+      "name": "Bachelor of Business Administration (Honours)(Autonomous) (Entrepreneurship)"
+    },
+    {
+      "id": 262,
+      "name": "Bachelor of Business Administration (Honours)(Autonomous) (Industry Integrated)"
+    },
+    {
+      "id": 264,
+      "name": "Bachelor of Business Administration (Honours)(Autonomous) (Logistics)"
+    },
+    {
+      "id": 258,
+      "name": "Bachelor of Business Administration (Honours)(Autonomous) (Marketing Management)"
+    },
+    {
+      "id": 261,
+      "name": "Bachelor of Business Administration (Honours)(Autonomous) (Professional Accountancy And Financial Management)"
+    },
+    {
+      "id": 263,
+      "name": "Bachelor of Business Administration (Honours)(Autonomous) (Shipping and Logistics Management)"
+    },
+    {
+      "id": 257,
+      "name": "Bachelor of Business Administration (Honours)(Autonomous) (Sports Management)"
+    },
+    {
+      "id": 256,
+      "name": "Bachelor of Business Administration (Honours)(Autonomous) (Tourism and Travel Management)"
+    },
+    {
+      "id": 234,
+      "name": "Bachelor of Commerce"
+    },
+    {
+      "id": 266,
+      "name": "Bachelor of Commerce - (Business Administration) (Autonomous)"
+    },
+    {
+      "id": 277,
+      "name": "Bachelor of Commerce (Accounting and Finance)"
+    },
+    {
+      "id": 290,
+      "name": "Bachelor of Commerce (Autonomous)"
+    },
+    {
+      "id": 305,
+      "name": "Bachelor of Commerce (Autonomous) ( Digital Marketing and Artificial Intelligence)"
+    },
+    {
+      "id": 304,
+      "name": "Bachelor of Commerce (Autonomous) (Actuarial Studies)"
+    },
+    {
+      "id": 395,
+      "name": "Bachelor of Commerce (Autonomous) (Business Process Management)"
+    },
+    {
+      "id": 306,
+      "name": "Bachelor of Commerce (Autonomous) (Certified Management Accounting)"
+    },
+    {
+      "id": 297,
+      "name": "Bachelor of Commerce (Autonomous) (Digital Business)"
+    },
+    {
+      "id": 292,
+      "name": "Bachelor of Commerce (Autonomous) (E-Commerce)"
+    },
+    {
+      "id": 299,
+      "name": "Bachelor of Commerce (Autonomous) (Economics and Analytics)"
+    },
+    {
+      "id": 298,
+      "name": "Bachelor of Commerce (Autonomous) (Economics)"
+    },
+    {
+      "id": 294,
+      "name": "Bachelor of Commerce (Autonomous) (Entrepreneurship)"
+    },
+    {
+      "id": 295,
+      "name": "Bachelor of Commerce (Autonomous) (Finance)"
+    },
+    {
+      "id": 301,
+      "name": "Bachelor of Commerce (Autonomous) (Financial Management)"
+    },
+    {
+      "id": 296,
+      "name": "Bachelor of Commerce (Autonomous) (Financial Markets)"
+    },
+    {
+      "id": 293,
+      "name": "Bachelor of Commerce (Autonomous) (International Accounting)"
+    },
+    {
+      "id": 303,
+      "name": "Bachelor of Commerce (Autonomous) (International Accounting)"
+    },
+    {
+      "id": 302,
+      "name": "Bachelor of Commerce (Autonomous) (Investment Management)"
+    },
+    {
+      "id": 274,
+      "name": "Bachelor of Commerce (Autonomous) (Management and Finance)"
+    },
+    {
+      "id": 291,
+      "name": "Bachelor of Commerce (Autonomous) (Retail Management)"
+    },
+    {
+      "id": 300,
+      "name": "Bachelor of Commerce (Autonomous) (Service Industry Management)"
+    },
+    {
+      "id": 288,
+      "name": "Bachelor of Commerce (Banking &amp;Isurance) (Autonomous)"
+    },
+    {
+      "id": 279,
+      "name": "Bachelor of Commerce (Banking and Insurance)"
+    },
+    {
+      "id": 281,
+      "name": "Bachelor of Commerce (Financial Management)"
+    },
+    {
+      "id": 289,
+      "name": "Bachelor of Commerce (Financial Management) (Autonomous)"
+    },
+    {
+      "id": 278,
+      "name": "Bachelor of Commerce (Financial Market)"
+    },
+    {
+      "id": 275,
+      "name": "Bachelor of Commerce (Financial Market) (Autonomous)"
+    },
+    {
+      "id": 285,
+      "name": "Bachelor of Commerce (Honours)(Autonomous)"
+    },
+    {
+      "id": 287,
+      "name": "Bachelor of Commerce (Honours)(Autonomous) (Finance and Management Accounting)"
+    },
+    {
+      "id": 286,
+      "name": "Bachelor of Commerce (Honours)(Autonomous) (International Accounting)"
+    },
+    {
+      "id": 282,
+      "name": "Bachelor of Commerce (Investment Management)"
+    },
+    {
+      "id": 280,
+      "name": "Bachelor of Commerce (Management Studies)"
+    },
+    {
+      "id": 307,
+      "name": "Bachelor of Commerce (Management Studies)(Autonomous)"
+    },
+    {
+      "id": 283,
+      "name": "Bachelor of Commerce (Transport Management)"
+    },
+    {
+      "id": 284,
+      "name": "Bachelor of Commerce(Accounting and Finance)(Autonomous)"
+    },
+    {
+      "id": 273,
+      "name": "Bachelor of Computer Application (Autonomous)"
+    },
+    {
+      "id": 318,
+      "name": "Bachelor of Fine Arts - Advanced Diploma in Dance (Kathak)"
+    },
+    {
+      "id": 312,
+      "name": "Bachelor of Fine Arts - Applied Art"
+    },
+    {
+      "id": 314,
+      "name": "Bachelor of Fine Arts - Ceramics"
+    },
+    {
+      "id": 317,
+      "name": "Bachelor of Fine Arts - Diploma in Dance (Kathak)"
+    },
+    {
+      "id": 316,
+      "name": "Bachelor of Fine Arts - Foundation Course"
+    },
+    {
+      "id": 309,
+      "name": "Bachelor of Fine Arts - Interior Decoration"
+    },
+    {
+      "id": 310,
+      "name": "Bachelor of Fine Arts - Metal Work"
+    },
+    {
+      "id": 313,
+      "name": "Bachelor of Fine Arts - Painting"
+    },
+    {
+      "id": 308,
+      "name": "Bachelor of Fine Arts - Sculpture"
+    },
+    {
+      "id": 311,
+      "name": "Bachelor of Fine Arts - Textile Design"
+    },
+    {
+      "id": 321,
+      "name": "Bachelor of Management Studies (Autonomous) (Retail Management)"
+    },
+    {
+      "id": 323,
+      "name": "Bachelor of Management Studies (Capital Market) (Autonomous)"
+    },
+    {
+      "id": 322,
+      "name": "Bachelor of Management Studies (E.M.E.) (Autonomous)"
+    },
+    {
+      "id": 320,
+      "name": "Bachelor of Management Studies (Sports Management) (Autonomous)"
+    },
+    {
+      "id": 315,
+      "name": "Bachelor of Performing Arts - Dance"
+    },
+    {
+      "id": 109,
+      "name": "Bachelor of Performing Arts(Music-Hindustani Vocal)"
+    },
+    {
+      "id": 110,
+      "name": "Bachelor of Performing Arts(Music-Sitar)"
+    },
+    {
+      "id": 111,
+      "name": "Bachelor of Performing Arts(Music-Tabla)"
+    },
+    {
+      "id": 115,
+      "name": "Bachelor of Physical Education(Bachelor of Physical Education )"
+    },
+    {
+      "id": 324,
+      "name": "Bachelor of Science"
+    },
+    {
+      "id": 331,
+      "name": "Bachelor of Science (Aeronautics) (Avionics)"
+    },
+    {
+      "id": 330,
+      "name": "Bachelor of Science (Aeronautics) (Mechanical)"
+    },
+    {
+      "id": 340,
+      "name": "Bachelor of Science (Autonomous)"
+    },
+    {
+      "id": 337,
+      "name": "Bachelor of Science (Autonomous) (Actuarial Science &amp;Quantitative Finance)"
+    },
+    {
+      "id": 358,
+      "name": "Bachelor of Science (Autonomous) (Actuarial Science)"
+    },
+    {
+      "id": 344,
+      "name": "Bachelor of Science (Autonomous) (Animation and VFX)"
+    },
+    {
+      "id": 343,
+      "name": "Bachelor of Science (Autonomous) (Applied Statistics and Data Analytics)"
+    },
+    {
+      "id": 361,
+      "name": "Bachelor of Science (Autonomous) (Artificial Intelligence and Machine Learning)"
+    },
+    {
+      "id": 397,
+      "name": "Bachelor of Science (Autonomous) (Artificial Intelligence)"
+    },
+    {
+      "id": 362,
+      "name": "Bachelor of Science (Autonomous) (Cloud Technology and Information Security)"
+    },
+    {
+      "id": 348,
+      "name": "Bachelor of Science (Autonomous) (Data Science and Analytics)"
+    },
+    {
+      "id": 347,
+      "name": "Bachelor of Science (Autonomous) (Data Science and Data Analytics)"
+    },
+    {
+      "id": 396,
+      "name": "Bachelor of Science (Autonomous) (Economics)"
+    },
+    {
+      "id": 360,
+      "name": "Bachelor of Science (Autonomous) (Environmental Science)"
+    },
+    {
+      "id": 352,
+      "name": "Bachelor of Science (Autonomous) (Fashion Design)"
+    },
+    {
+      "id": 364,
+      "name": "Bachelor of Science (Autonomous) (Fashion Studies)"
+    },
+    {
+      "id": 336,
+      "name": "Bachelor of Science (Autonomous) (Hospitality and Catering)"
+    },
+    {
+      "id": 238,
+      "name": "Bachelor of Science (Autonomous) (Hospitality and Catering) (Sattalite centre )"
+    },
+    {
+      "id": 346,
+      "name": "Bachelor of Science (Autonomous) (Human Science)"
+    },
+    {
+      "id": 345,
+      "name": "Bachelor of Science (Autonomous) (Interior Design)"
+    },
+    {
+      "id": 351,
+      "name": "Bachelor of Science (Autonomous) (Medical Imaging Technology)"
+    },
+    {
+      "id": 341,
+      "name": "Bachelor of Science (Autonomous) (Medical Laboratory Technology)"
+    },
+    {
+      "id": 359,
+      "name": "Bachelor of Science (Autonomous) (Packaging Technology)"
+    },
+    {
+      "id": 353,
+      "name": "Bachelor of Science (Autonomous) (Pharma Drug Science)"
+    },
+    {
+      "id": 342,
+      "name": "Bachelor of Science (Autonomous) (Psychology)"
+    },
+    {
+      "id": 349,
+      "name": "Bachelor of Science (Autonomous) (Sports Science)"
+    },
+    {
+      "id": 326,
+      "name": "Bachelor of Science (Aviation)"
+    },
+    {
+      "id": 354,
+      "name": "Bachelor of Science (Aviation) (Autonomous)"
+    },
+    {
+      "id": 335,
+      "name": "Bachelor of Science (Biotechnology)"
+    },
+    {
+      "id": 356,
+      "name": "Bachelor of Science (Biotechnology) (Autonomous)"
+    },
+    {
+      "id": 333,
+      "name": "Bachelor of Science (Computer Science)"
+    },
+    {
+      "id": 339,
+      "name": "Bachelor of Science (Data Science and Business Analytics) (Autonomous)"
+    },
+    {
+      "id": 338,
+      "name": "Bachelor of Science (Data Science)"
+    },
+    {
+      "id": 366,
+      "name": "Bachelor of Science (Data Science) (Autonomous)"
+    },
+    {
+      "id": 332,
+      "name": "Bachelor of Science (Forensic Science)"
+    },
+    {
+      "id": 329,
+      "name": "Bachelor of Science (Home Science)"
+    },
+    {
+      "id": 357,
+      "name": "Bachelor of Science (Honours) (Autonomous) (Integrative Nutrition &amp;Dietetics)"
+    },
+    {
+      "id": 363,
+      "name": "Bachelor of Science (Honours) (Autonomous) (Interior Design)"
+    },
+    {
+      "id": 334,
+      "name": "Bachelor of Science (Hospitality Studies)"
+    },
+    {
+      "id": 328,
+      "name": "Bachelor of Science (Maritime Hopitality Studies)"
+    },
+    {
+      "id": 327,
+      "name": "Bachelor of Science (Nautical Science)"
+    },
+    {
+      "id": 253,
+      "name": "Bachelor of Vocation - Theatre and Stage Craft (Autonomous)"
+    },
+    {
+      "id": 242,
+      "name": "Bachelor of Vocational - Media Production"
+    },
+    {
+      "id": 369,
+      "name": "Bachelor of Vocational ( Management and Entrepreneurship Development)"
+    },
+    {
+      "id": 378,
+      "name": "Bachelor of Vocational (Autonomous) ( Banking and Financial Service)"
+    },
+    {
+      "id": 376,
+      "name": "Bachelor of Vocational (Autonomous) ( Business Management and Enterepreneurial Development)"
+    },
+    {
+      "id": 384,
+      "name": "Bachelor of Vocational (Autonomous) ( Cyber Security and Forensics)"
+    },
+    {
+      "id": 377,
+      "name": "Bachelor of Vocational (Autonomous) ( Tourism and Hospitality)"
+    },
+    {
+      "id": 386,
+      "name": "Bachelor of Vocational (Autonomous) (Artificial Intelligence and Data Science)"
+    },
+    {
+      "id": 375,
+      "name": "Bachelor of Vocational (Autonomous) (Financial Market and Trading Operations)"
+    },
+    {
+      "id": 370,
+      "name": "Bachelor of Vocational (Autonomous) (Financial Markets and Sevices)"
+    },
+    {
+      "id": 383,
+      "name": "Bachelor of Vocational (Autonomous) (Food Technology)"
+    },
+    {
+      "id": 381,
+      "name": "Bachelor of Vocational (Autonomous) (Medical Laboratory Technology)"
+    },
+    {
+      "id": 371,
+      "name": "Bachelor of Vocational (Autonomous) (Real Estate Management)"
+    },
+    {
+      "id": 374,
+      "name": "Bachelor of Vocational (Autonomous) (Sales and Marketing Management)"
+    },
+    {
+      "id": 385,
+      "name": "Bachelor of Vocational (Autonomous) (Sustainable Agriculture)"
+    },
+    {
+      "id": 372,
+      "name": "Bachelor of Vocational (Autonomous) (Tourism and Travel Management)"
+    },
+    {
+      "id": 373,
+      "name": "Bachelor of Vocational (Autonomous) (Travel and Tourism Management)"
+    },
+    {
+      "id": 380,
+      "name": "Bachelor of Vocational (Health Care)"
+    },
+    {
+      "id": 379,
+      "name": "Bachelor of Vocational (Medical Laboratory Technology )"
+    },
+    {
+      "id": 368,
+      "name": "Bachelor of Vocational(Hospitality and Tourism)"
+    },
+    {
+      "id": 367,
+      "name": "Bachelor of Vocational(Tourism and Hospitality Management)"
+    }
+  ],
+  "selected": ""
+}
