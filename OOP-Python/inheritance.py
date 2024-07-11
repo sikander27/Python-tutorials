@@ -1,4 +1,5 @@
-from classess import Employee
+from .classess import Employee
+
 
 class Developer(Employee):
     raise_amount = 1.10

@@ -30,17 +30,34 @@ print("MRO:", [x.__name__ for x in E.__mro__])
 E(10)
 print("###########################################")
 # Pass this object to Parent / New style class
-class Parent(object): 
-  def __init__(self, txt):
-    self.message = txt
 
-  def printmessage(self):
-    print(self.message)
+
+class Parent(object):
+    family = "khan"	 
+    def __init__(self, txt):
+        self.message = txt
+
+    def printmessage(self):
+        print("Parent")
+        print(self.message)
+
+    def voice(self):
+        print("Parent voice")
+
+    def job(self):
+        print("Creator")
 
 class Child(Parent):
-  def __init__(self, txt):
-    super(Child, self).__init__(txt)
+    def __init__(self, txt):
+        print("Child")
+        super(Child, self).__init__(txt)
+
+    def voice(self):
+        print("wa wa..")
+        # return super().voice()
 
 x = Child("Hello, and welcome!")
-
+x.voice()
 x.printmessage()
+x.job()
+print(x.family)
