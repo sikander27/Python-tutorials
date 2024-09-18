@@ -1,7 +1,6 @@
 import hashlib
 import os
 import time
-from datetime import datetime, timedelta
 
 
 def hash_secret(secret_value: str, salt: bytes = None) -> str:
